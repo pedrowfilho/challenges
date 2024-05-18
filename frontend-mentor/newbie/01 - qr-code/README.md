@@ -1,9 +1,9 @@
 # QR code component <h1>
-## Fonte <h2>
+## Fonte
 Frontend Mentor
-## Descrição <h2>
+## Descrição
 Construir um componente de QR code e fazer com que pareça o mais próximo possível do design disponibilizado.
-## Linguagens e tecnologias <h2>
+## Linguagens e tecnologias
 * HTML5
 * CSS3
 * Flexbox
