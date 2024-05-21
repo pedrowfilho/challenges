@@ -13,11 +13,11 @@ html {
 
 body {
   display: flex;
-  min-width: 375px;
   max-width: 1440px;
   background-color: hsl(212, 45%, 89%);
   justify-content: center;
   align-items: center;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
 }
@@ -29,6 +29,7 @@ main {
   text-align: center;
   max-width: 260px;
   max-height: 400px;
+  width: auto;
 }
 
 .img-qr-code {
@@ -37,14 +38,15 @@ main {
   border-radius: 8px;
 }
 
-h3 {
+h1 {
+  font-size: 1.2rem;
   padding: 0 12px;
   color: hsl(218, 44%, 22%);
   margin-top: 14px;
 }
 
 p {
-  font-size: 12px;
+  font-size: 0.8rem;
   text-align: center;
   padding: 0 16px;
   margin-top: 12px;
@@ -52,16 +54,3 @@ p {
   color: hsl(220, 15%, 55%);
 }
 
-@media (max-width: 375px) {
-  main {
-    width: 90%;
-  }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  p {
-    font-size: 12px;
-  }
-}
