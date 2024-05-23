@@ -3,6 +3,8 @@
 ### Descrição
 Criar uma lista de produtos usando as tags HTML
 ### Requisitos
+* no mínimo 3 itens com nome do produto e preço ao lado
+* ênfase no valor total dos produtos ao final da lista
 ### Visualização
 [Link do site](https://pedrowfilho.github.io/challenges/devquest/html-css-basico/ex01-lista-de-compras/)
 
