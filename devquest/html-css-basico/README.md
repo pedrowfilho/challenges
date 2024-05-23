@@ -7,3 +7,5 @@ Criar uma lista de produtos usando as tags HTML
 [Link do site](https://pedrowfilho.github.io/challenges/devquest/html-css-basico/ex01-lista-de-compras/)
 
 [Link do respositório](https://github.com/pedrowfilho/challenges/tree/main/devquest/html-css-basico/ex01-lista-de-compras)
+
+![image](https://github.com/pedrowfilho/challenges/assets/44990312/1c441f0e-7b13-4d26-9062-b1998f3e5cd7)
