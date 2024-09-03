@@ -1,5 +1,5 @@
 # Estágio em Desenvolvimento - Target São Paulo
-Desafio de técnica para processo de seleção para Estagiário em Desenvolvimento.
+Desafio de técnica para processo de seleção de Estagiário em Desenvolvimento.
 ## Descrição
 
 ## Desafio 1
