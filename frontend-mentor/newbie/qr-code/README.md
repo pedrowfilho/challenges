@@ -7,7 +7,7 @@ Construir um componente de QR code e fazer com que fique o mais próximo possív
 * CSS
 * Flexbox
 ## Visualização
-[Link do site](https://pedrowfilho.github.io/challenges/frontend-mentor/newbie/qr-code/)  
+[Link](https://pedrowfilho.github.io/challenges/frontend-mentor/newbie/qr-code/)  
 
 [Avaliação Frontend Mentor](https://www.frontendmentor.io/solutions/soluo-utilizando-html5-css3-e-flexbox-t_rRmK7cqY)  
 
