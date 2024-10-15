@@ -1,0 +1,15 @@
+Desafio Target :) - Estágio em Desenvolvimento - Ribeirão Preto
+#### Questão 5 ####
+
+Questão em forma de algoritmo.
+
+Início
+
+1. Ligar um dos interruptores e agurdar alguns minutos.
+2. Desligar o interruptor e ligar outro.
+3. Ir até a sala e verificar as lâmpadas.
+4. Se a lâmpada estiver desligada e quente, corresponde ao primeiro interruptor
+5. Se a lâmpada estiver acesa, correponde ao segundo interruptor 
+6. E se a lâmpada estiver apagada e fria, corresponde ao terceiro interruptor.
+
+Fim.
