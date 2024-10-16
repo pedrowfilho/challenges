@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "social social";
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.6rem;
+  background: url(../images/bg-desktop.svg) no-repeat center center
+    var(--primary-violet);
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  grid-area: header;
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.header .logo img {
+  width: 200px;
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  /* margin: 0 60px; */
+  padding: 30px 70px;
+  /* gap: 45px; */
+}
+
+.informations {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+}
+
+.informations h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  width: 60%;
+  line-height: 48px;
+  margin-bottom: 24px;
+  font-size: 3.4rem;
+}
+
+.informations p {
+  width: 70%;
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* social */
+.social ul {
+  background-color: gray;
+  display: flex;
+  font-size: 3rem;
+}
+
+@media (max-width: 425px) {
+  .header .logo img {
+    width: 150px;
+  }
+}
