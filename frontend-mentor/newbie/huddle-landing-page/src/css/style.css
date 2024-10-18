@@ -90,7 +90,6 @@ body {
 .footer {
   display: flex;
   justify-content: flex-end;
-  background-color: var(--primary-violet);
   color: #fff;
   padding: 20px;
   text-align: right;
