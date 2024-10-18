@@ -1,12 +1,11 @@
 body {
-  background-color: aquamarine;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 1440px;
-  height: 100vh;
-  margin: 0 auto;
-  padding: 20px;
+  justify-content: space-between;
+  /* width: 100%; */
+  min-height: 100vh;
+  /* margin: 0 auto; */
+  /* padding: 20px; */
   background: url(../images/bg-desktop.svg) var(--primary-violet) center center
     no-repeat;
   background-size: cover;
@@ -16,56 +15,67 @@ body {
 
 .header {
   display: flex;
-  justify-content: flex-start;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .header .logo img {
-  width: 200px;
-  margin-left: 80px;
+  max-width: 200px;
+  height: auto;
+  margin-left: 50px;
 }
 
 .container {
+  max-width: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 .conteudo-principal {
-  /* background-color: chocolate; */
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.conteudo-principal img {
+  max-width: 50%;
+  height: auto;
+  flex: 1;
 }
 
 .conteudo-principal .info {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-left: 20px;
-  padding: 0 20px;
+  max-width: 50%;
+  flex: 1;
 }
 
-.conteudo-principal .info h1 {
+.conteudo-principal .info .titulo {
   font-family: "Poppins", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 20px;
+  max-width: 400px;
 }
 
 .conteudo-principal .info p {
-  margin-bottom: 25px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  max-width: 460px;
+  line-height: 1.6rem;
 }
 
 .conteudo-principal .info .btn-register {
   background-color: #fff;
   color: var(--primary-violet);
-  width: 180px;
-  height: 45px;
+  padding: 10px 50px;
   border-radius: 30px;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
@@ -80,12 +90,21 @@ body {
   color: #fff;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--primary-violet);
+  color: #fff;
+  padding: 20px;
+  text-align: right;;
+}
+
 .footer .social {
   display: flex;
-  gap: 15px;
   justify-content: flex-end;
-  margin-right: 120px;
+  margin-right: 60px;
   margin-bottom: 30px;
+  gap: 16px;
 }
 
 .footer .social a i {
@@ -104,3 +123,4 @@ body {
   color: var(--soft-magenta);
   border: 2px solid var(--soft-magenta);
 }
+
