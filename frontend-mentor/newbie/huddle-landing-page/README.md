@@ -1,5 +1,5 @@
 # Huddle landing page
-![](./design/huddle-landing-page-mockup2.png)
+![](./src/images/huddle-landing-page-mockup2.png)
 
 <!-- ### Links -->
 <!-- - [Solution]() -->
