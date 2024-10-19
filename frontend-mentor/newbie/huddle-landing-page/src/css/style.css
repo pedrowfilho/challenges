@@ -120,6 +120,21 @@ body {
   border: 2px solid var(--soft-magenta);
 }
 
+@media (max-width: 1024px) {
+  .conteudo-principal img {
+    width: 90%;
+  }
+
+  .titulo {
+    text-align: center;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 10px;
