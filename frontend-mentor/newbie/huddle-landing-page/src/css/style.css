@@ -13,8 +13,8 @@ body {
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
@@ -35,8 +35,8 @@ body {
 
 .conteudo-principal {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 50px;
 }
@@ -136,6 +136,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  body{
+    background: url(../images/bg-mobile.svg) center center no-repeat var(--primary-violet);
+    background-size: cover;
+  }
+
   .container {
     padding: 10px;
   }
