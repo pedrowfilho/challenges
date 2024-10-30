@@ -1,0 +1,164 @@
+html{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  min-height: 100vh;
+  /* padding: 20px; */
+}
+
+.header {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 45px;
+  margin: 30px 0;
+}
+
+.header .logo {
+  /* border: 3px solid blue; */
+  font-size: 40px;
+}
+
+.header .menu ul,
+.header .login ul {
+  display: flex;
+  font-size: 18px;
+  gap: 40px;
+}
+
+.header .btn-sign {
+  background-color: var(--color-button);
+  color: var(--text-color-button);
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.container {
+  /* border: 3px solid violet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.container .content {
+  /* border: 3px solid darkorange; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content .info {
+  /* border: 3px solid #000; */
+  max-width: 40%;
+  height: auto;
+  flex: 1;
+}
+
+.content .info .text {
+  display: flex;
+  font-size: 20px;
+  color: var(--text-color-light);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.content .tittle {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content .image {
+  /* border: 3px solid #000; */
+  max-width: 40%;
+  height: auto;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.content .btn-buy {
+  background-color: var(--color-button);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .header .logo {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header .menu ul,
+  .header .login ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .header .btn-sign {
+    padding: 10px 20px;
+  }
+
+  .content .image {
+    width: 90%;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content .image {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .content .info {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .content .info .tittle {
+    font-size: 32px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .footer .social {
+    margin: 0 auto;
+  }
+}
