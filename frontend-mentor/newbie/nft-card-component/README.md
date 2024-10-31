@@ -1,7 +1,7 @@
 # NFT preview card component
 ![](./src/images/mockup.png)
 
-🖱️ [View Website](https://your-live-site-url.com)
+🖱️ [View Website](https://pedrowfilho.github.io/challenges/frontend-mentor/newbie/nft-card-component/)
 
 ## Visão Geral
 
