@@ -3,13 +3,13 @@
 
 <!-- ### Links -->
 <!-- - [Solution]() -->
-- [Deploy](https://your-live-site-url.com) 🖱️
+- [View Website](https://pedrowfilho.github.io/challenges/frontend-mentor/newbie/huddle-landing-page/) 🖱️
 
 ## Visão Geral
 
 ### Desafio
 
-Este é um desafio do Frontend Mentor onde o objetivo é criar uma página responsiva com base em um design fornecido.
+Este é um desafio do Frontend Mentor onde o objetivo é criar uma página responsiva com base em um [design fornecido](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
 ### Habilidades/Técnicas
 
