@@ -7,7 +7,7 @@
 
 ### Desafio
 
-Este é um desafio do Frontend Mentor onde o objetivo é criar [este componente](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) de cartão de visualização.
+Este é um [desafio do Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) onde o objetivo é criar um  componente de cartão de pré-visualização NFT.
 
 ### Habilidades/Técnicas
 
